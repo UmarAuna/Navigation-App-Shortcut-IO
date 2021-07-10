@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:shortcutId="download"
+        android:enabled="true"
+        android:icon="@drawable/ic_cloud_download"
+        android:shortcutShortLabel="@string/short_label"
+        android:shortcutLongLabel="@string/long_label"
+        android:shortcutDisabledMessage="@string/disable_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.app.appshortcut"
+            android:targetClass="com.app.appshortcut.DownloadActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:shortcutId="message"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:shortcutShortLabel="@string/short_label_message"
+        android:shortcutLongLabel="@string/long_label_message"
+        android:shortcutDisabledMessage="@string/disable_label_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.app.appshortcut"
+            android:targetClass="com.app.appshortcut.MessageActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

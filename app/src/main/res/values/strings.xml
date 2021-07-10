@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Shortcut</string>
+
+    <string name="short_label">Download</string>
+    <string name="long_label">This opens Download</string>
+    <string name="disable_label">Download is Disabled</string>
+
+    <string name="short_label_profile">Profile</string>
+    <string name="long_label_profile">This opens Profile</string>
+    <string name="disable_label_profile">Profile is Disabled</string>
+
+    <string name="short_label_message">Message</string>
+    <string name="long_label_message">This opens message</string>
+    <string name="disable_label_message">Message is Disabled</string>
+</resources>
