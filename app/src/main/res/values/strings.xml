@@ -12,4 +12,8 @@
     <string name="short_label_message">Message</string>
     <string name="long_label_message">This opens message</string>
     <string name="disable_label_message">Message is Disabled</string>
+
+    <string name="short_label_notification">Notification</string>
+    <string name="long_label_notification">This opens notification</string>
+    <string name="disable_label_notification">Notification is Disabled</string>
 </resources>

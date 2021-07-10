@@ -33,4 +33,20 @@
              here. -->
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
+
+    <shortcut
+        android:shortcutId="notification"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:shortcutShortLabel="@string/short_label_notification"
+        android:shortcutLongLabel="@string/long_label_notification"
+        android:shortcutDisabledMessage="@string/disable_label_notification">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.app.appshortcut"
+            android:targetClass="com.app.appshortcut.NotificationActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
 </shortcuts>
